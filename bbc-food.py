@@ -82,9 +82,6 @@ for i in range(len(links)):
     except:
         print("Not found")
 
-for item in range(len(allIngredients)):
-    writer1.writerow([item, allIngredients[item]])
-
 file1.close()
 file2.close()
 file3.close()
